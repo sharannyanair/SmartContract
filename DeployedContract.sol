@@ -165,7 +165,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
      */
     constructor() {
         _name = "Project x21154520";
-        _symbol = "SHY";
+        _symbol = "SHYN";
         
         _mint(msg.sender, 1000000000000000000000000);
     }
