@@ -1,10 +1,27 @@
 {
+  "name": "nci_x21154520_smart_contract",
+  "version": "1.0.0",
+  "description": "Smart Contract using node.js and docker container",
+  "main": "contract.js",
+  "scripts": {
+    "start": "node distribute.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharannyanair/SmartContract"
+  },
+  "author": "Sharannya Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharannyanair/SmartContract/issues"
+  },
+  "homepage": "https://github.com/sharannyanair/SmartContract/#readme",
   "dependencies": {
     "big-number": "^2.0.0",
-    "bignumber": "^1.1.0",
-    "bignumber.js": "^9.0.2",
     "dotenv": "^16.0.0",
     "ethereumjs-tx": "^2.1.2",
+    "express": "^4.16.1",
     "web3": "^1.7.3"
   }
 }
