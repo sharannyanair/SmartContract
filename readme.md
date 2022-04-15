@@ -25,7 +25,7 @@ Install web3 , ethereumJS, big-number and .env (npm install *)
         
         _mint(msg.sender, 1000000000000000000000000);}
 
-*  Compile and deploy the DeployedControl.sol file.The contract address is used as CONTRACT_ADDRESS  in .env
+*  Compile and deploy the DeployedControl.sol file.The contract address is used as CONTRACT_ADDRESS  in .env.Once deployed , the transcation can be viewed in [etherscan.io](https://ropsten.etherscan.io/)
 *  Dockerfile,.dockerignore and docker-compose.yml are docker dependency file used in the source code
 *  To build and run application on docker environment, use <br />
     `docker build . -t x21154520/project_blockchain_smartcontract` <br />
